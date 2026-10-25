@@ -1,0 +1,16 @@
+{
+  "name": "cafe-tycoon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cafe Tycoon - web game quản lý quán cà phê, vẽ bằng Canvas 2D, chạy tĩnh trên Cloudflare Pages.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}
