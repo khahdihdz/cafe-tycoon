@@ -115,16 +115,16 @@ export class UI {
       </div>
       <div class="stats">
         <div class="stat money">
-          <span class="stat-label">Tiền mặt</span>
+          <span class="stat-label">💰 Tiền mặt</span>
           <b id="hud-money">$0</b>
         </div>
         <div class="stat">
-          <span class="stat-label">Danh tiếng</span>
+          <span class="stat-label">💖 Danh tiếng</span>
           <b id="hud-rep">20</b>
           <div class="meter"><i id="hud-rep-bar" style="width:20%"></i></div>
         </div>
         <div class="stat served-stat">
-          <span class="stat-label">Đã phục vụ</span>
+          <span class="stat-label">☕ Đã phục vụ</span>
           <b id="hud-served">0</b>
         </div>
         <div class="stat clock">
@@ -344,7 +344,7 @@ export class UI {
     const s = this.state;
     const card = `
       <div class="modal title-modal" role="dialog" aria-modal="true" aria-labelledby="title-h">
-        <p class="eyebrow">Web game quản lý · Canvas 2D</p>
+        <p class="eyebrow">♥ Web game quản lý · Quán cà phê dễ thương</p>
         <h1 id="title-h">Cafe <span>Tycoon</span></h1>
         <p class="lede">
           Một quán nhỏ, một máy pha cà phê và 90 giây mỗi ngày.
